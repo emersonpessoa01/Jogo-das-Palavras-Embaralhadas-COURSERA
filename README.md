@@ -32,6 +32,21 @@ pode ser fixa (pelo menos 20).
 >   que podem mudar: quando o jogo termina (após um número fixo de palavras, após um número de
 >   erros); quantas tentativas podem ser feitas por palavra; como são computados os pontos; qual embaralhador será utilizado e em que momento; e etc... O importante é que independente do funcionamento, a classe <strong>Principal</strong> deverá interagir com ele da mesma forma.
 
+```
+        É você quem irá definir as interfaces! Então se houver alguma informação que
+        precise saber daquela a respeito da implementação, inclua um método que
+        retorna aquela informação. Exemplo: um embaralhador pode gerar uma mistura
+        mais difícil que outros, então se caso essa informação seja relevante (para
+        pontuação, por exemplo) crie um método na interface Embaralhador que
+        retorne sua dificuldade.
+```
+
+Deverá ser entregue:
+ - O código criado para o jogo
+ - O diagrama de classes com todas as classes criadas
+ - Testes de unidade para as classes de embaralhamento
+ - O link para um video disponibilizado de forma aberta com a gravação de uma partida do seu jogo
+
 <h1 align="center">Diagrama de Classes</h1>
 
 ```mermaid
