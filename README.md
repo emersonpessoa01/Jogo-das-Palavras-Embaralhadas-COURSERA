@@ -32,6 +32,8 @@ pode ser fixa (pelo menos 20).
 >   que podem mudar: quando o jogo termina (após um número fixo de palavras, após um número de
 >   erros); quantas tentativas podem ser feitas por palavra; como são computados os pontos; qual embaralhador será utilizado e em que momento; e etc... O importante é que independente do funcionamento, a classe <strong>Principal</strong> deverá interagir com ele da mesma forma.
 
+## Diagrama de Classes
+
 ```mermaid
 classDiagram
     class Principal {
