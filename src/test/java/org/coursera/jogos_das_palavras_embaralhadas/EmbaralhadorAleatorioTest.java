@@ -1,11 +1,13 @@
 package org.coursera.jogos_das_palavras_embaralhadas;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
-import static org.junit.Assert.assertEquals;
-import org.junit.Test;
+
 import java.util.HashSet;
 import java.util.Set;
+
+import org.junit.Test;
 
 public class EmbaralhadorAleatorioTest {
 

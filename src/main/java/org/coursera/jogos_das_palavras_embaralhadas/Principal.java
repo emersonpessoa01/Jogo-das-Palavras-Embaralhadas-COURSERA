@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         MecanicaDoJogo mecanica = FabricaMecanicaDoJogo.getMecanicaDoJogo();
 
         System.out.println("Bem-vindo ao jogo de adivinhar palavras!");
@@ -12,7 +12,7 @@ public class Principal {
         while (!mecanica.jogoAcabou()) {
             System.out.println("Palavra embaralhada: " + mecanica.getPalavraEmbaralhada());
             System.out.print("Sua tentativa: ");
-            String tentativa = scanner.nextLine();
+            String tentativa = in.nextLine();
             
             if (mecanica.tentarAdivinhar(tentativa)) {
                 System.out.println("Você acertou!");
@@ -22,7 +22,7 @@ public class Principal {
         }
 
         System.out.println("O jogo acabou! Sua pontuação final foi: " + mecanica.getPontuacao());
-        scanner.close();
+        in.close();
     }
 }
 
