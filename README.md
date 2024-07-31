@@ -113,3 +113,7 @@ classDiagram
     Embaralhador <|-- EmbaralhadorAleatorio
 
 ```
+
+Autor: [@emersonpessoa01](https://github.com/emersonpessoa01)
+---
+Projeto: [Jogo das Palavras Embaralhadas](https://github.com/emersonpessoa01/Jogo-de-Palavras-Embaralhadas-COURSERA)
