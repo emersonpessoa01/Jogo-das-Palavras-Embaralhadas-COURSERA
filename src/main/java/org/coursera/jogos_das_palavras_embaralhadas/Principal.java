@@ -1,4 +1,4 @@
-package org.coursera.jogos;
+package org.coursera.jogos_das_palavras_embaralhadas;
 
 import java.util.Scanner;
 

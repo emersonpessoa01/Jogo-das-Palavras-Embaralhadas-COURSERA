@@ -1,4 +1,4 @@
-package org.coursera.jogos;
+package org.coursera.jogos_das_palavras_embaralhadas;
 
 public class MecanicaSimples implements MecanicaDoJogo {
     private BancoDePalavras bancoDePalavras = new BancoDePalavras();
